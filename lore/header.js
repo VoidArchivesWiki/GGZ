@@ -1,4 +1,4 @@
-fetch("/Void-Archives-GGZ-Wiki/lore/header.html")
+fetch("/GGZ/lore/header.html")
   .then(response => {
     return response.text()
   })
