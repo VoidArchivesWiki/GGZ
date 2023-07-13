@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>404 Page not found - Void Archives GGZ Wiki</title>
+<link rel="icon" type="image/png" href="/images/icon.png"/>
+<meta name="author" content="JKCrafted" />
+<meta name="Description" content="Page not found" />
+<meta name="robots" content="index, follow, noarchive" />
+<meta name="googlebot" content="noarchive" />
+<script src="/sideinfo.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/screen1.css" media="screen, print" />
+<meta http-equiv="refresh" content="20; URL=/HSR/" />
+<style type="text/css">
+  </style>
+</head>
+
+<!--
+.style1 {color: #FFFFFF}
+-->
+  </style>
+</head>
+<body>
+<div class="body_header">&nbsp;</div>
+<div class="wrap">
+  <div id="header">
+    <div id="menu">
+      <ul>
+        <li><a href="/HI3/" title="Honkai Impact 3rd Wiki">HI3 Wiki</a></li>
+        <li><a href="/HSR/" title="Honkai Star Rail Wiki">HSR Wiki</a></li>
+        <li><a href="/GGZ/" title="Guns Girl Z (Houkai Gakuen 2) Wiki">GGZ Wiki</a></li>
+      </ul>
+      <div id="title">
+        <h1>Wiki</h1>
+      </div>
+    </div>
+  </div>
+  <div id="content">
+    <div id="text">
+	  <p></p>
+	  <font size="+2">Error 404 Page not found.</font></br>
+	  <p><font size="+1">This page will be redirected to the <a href="/GGZ/">Void Archives GGZ Wiki Home Page</a> in </font>
+	  <font size="+1" id="timer"></font>
+<script>
+var countDownDate = new Date().getTime() + 22000;
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("timer").innerHTML = seconds + " seconds. ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "0";
+  }
+}, 1000);
+</script>
+	  </p>
+    </div>
+    <div id="s-image">&nbsp;</div>
+	<div id="sideBar">
+	<h1><span>Guns Girl Z (Houkai Gakuen 2)</span></h1> 
+    <sideBarGGZ>
+    </sideBarGGZ>
+	<h1><span>Honkai Star Rail</span></h1> 
+    <sideBarSR>
+    </sideBarSR>
+	<h1><span>Honkai Impact 3rd</span></h1> 
+    <sideBarHI>
+    </sideBarHI>
+	</div>
+  </div>
+</div>
+</body>
+</html>
